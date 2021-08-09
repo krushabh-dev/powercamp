@@ -10,107 +10,16 @@
         Competition. </details> -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
         integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+    <!-- Google Fonts : Roboto-->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
 
-    <style>
-        h1,
-        h2,
-        h3,
-        h4,
-        h5,
-        h6,
-        a,
-        p,
-        span,
-        button,
-        input {
-            font-family: 'Roboto', sans-serif;
-        }
+    <!-- Iconscout: Line Unicons https://iconscout.com/unicons/explore/line -->
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
 
-        header#header {
-            min-height: 100vh;
-            background: url(bg.png);
-            background-position: center;
-            background-repeat: no-repeat;
-            background-size: cover;
-        }
-
-        .nav-section ul li a {
-            color: #fff;
-            font-weight: 500;
-            padding: 20px 10px !important;
-            /* text-transform: uppercase; */
-            display: block;
-            font-size: 16px;
-            -webkit-transition: all .3s ease-out 0s;
-            -moz-transition: all .3s ease-out 0s;
-            -ms-transition: all .3s ease-out 0s;
-            -o-transition: all .3s ease-out 0s;
-            transition: all .3s ease-out 0s;
-            text-transform: normal;
-            position: relative;
-        }
-
-        #home .heading {
-            padding-top: 7rem;
-            text-align: -webkit-center;
-        }
-
-        #home h2.main-title {
-            margin-top: 1rem;
-            margin-bottom: 1rem;
-            font-weight: 600;
-            font-size: 3rem;
-            color: #95b1dc;
-        }
-
-        #home span.home-date {
-            color: #8eb6f3;
-            font-size: 1.2rem;
-            font-weight: 500;
-            text-transform: uppercase;
-            display: inline-block;
-            margin-bottom: 0;
-            line-height: 1;
-        }
-
-        #home a.btn.hero-btn {
-            background: #FDE449;
-            text-transform: inherit !important;
-            padding: 30px 43px;
-            color: #302072 !important;
-            cursor: pointer;
-            display: inline-block;
-            font-size: 20px !important;
-            font-weight: 700 !important;
-            border-radius: 5px;
-            line-height: 1;
-            line-height: 0;
-            cursor: pointer;
-            -moz-user-select: none;
-            transition: color 0.4s linear;
-            position: relative;
-            z-index: 1;
-            border: 0;
-            overflow: hidden;
-        }
-
-        #home .home-btn {
-            text-align-last: center;
-        }
-
-        @media (min-width: 768px) {
-            #home h2.main-title {
-                font-size: 4.4rem;
-            }
-
-            #home .heading {
-                padding-top: 3.5rem;
-            }
-        }
-    </style>
+    <!-- Styles: Bagcampus -->
+    <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
@@ -119,12 +28,33 @@
             <nav class="navbar navbar-expand-lg navbar-light">
                 <div class="container">
                     <a class="navbar-brand" href="#">Bagcampus</a>
-                    <button class="navbar-toggler" type="button" data-toggle="collapse"
+                    <button class="navbar-toggler border-0" type="button" data-toggle="collapse"
                         data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
                         aria-expanded="false" aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span>
+                        <i class="uil uil-list-ui-alt h2 menu-color"></i>
                     </button>
-
+                    <div class="social-cons w-100 w-md-auto">
+                        <ul class="navbar-nav ml-auto d-flex justify-content-center">
+                            <li class="nav-item">
+                                <a class="nav-link d-md-none" href="#">Share With</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#"><i class="uil uil-linkedin-alt"></i></a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#"><i class="uil uil-twitter-alt"></i></a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#"><i class="uil uil-instagram"></i></a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#"><i class="uil uil-facebook-f"></i></a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#"><i class="uil uil-whatsapp"></i></a>
+                            </li>
+                        </ul>
+                    </div>
                     <div class="collapse navbar-collapse" id="navbarSupportedContent">
                         <ul class="navbar-nav ml-auto">
                             <li class="nav-item active">
@@ -141,12 +71,12 @@
         <section id="home">
             <div class="container">
                 <div class="row justify-content-center">
-                    <div class="col-md-8">
+                    <div class="col-md-10">
                         <div class="heading">
                             <span>16
                                 Aug- 16 Sept. 2021</span>
                             <h2 class="main-title">
-                                Bagcampus <br> Power Camp <br> 2021
+                                <span class="sr-brand">Bagcampus</span><br> Power Camp 2021
                             </h2>
                             <p class="tagline p-2"> Free Trainig Sessions And Amzing Competition</p>
                         </div>
@@ -157,8 +87,804 @@
                 </div>
             </div>
         </section>
+        <section id="about">
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-md-12">
+                        <div class="heading">
+                            <h2>
+                                About Program
+                            </h2>
+                            <p>
+                                Let's Explore
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="ab-img d-none d-md-block">
+                            <img src="powercamp-coming-soon.png" alt="banner" srcset="" class="img-fluid">
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="right-caption">
+                            <div class="abt-tittle mb-30">
+                                <h3 class="small-title">Bagcampus Power Camp 2021</h3>
+                                <p class="abt-des">
+                                    This is a Trainig-Cum Competition Organised By Bagcampus Internship and Job Fest Cell, Where
+                                    The Head Team of Bagcampus is Providing Free Trainig Sessions For Students In Top 8 Domains
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
     </header>
-
+    <section>
+        <div class="fraud-alert">
+            <p class="p-5 text-center">
+                Attandees Can Enroll In This Program For Free of Cost. Bagcampus™ Never Ask For Any Charges/Fees. If You
+                Recive
+                Any Fraud Calls Inform Us On Our Official Contact Number With Whatsapp or Write us at admin@bagcampus.in
+            </p>
+        </div>
+    </section>
+    <section>
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-md-12">
+                    <div class="heading mb-3">
+                        <h2>How It Work?</h2>
+                    </div>
+                </div>
+                <div class="col-md-10">
+                    <div class="card mb-3 spl-br">
+                        <div class="row g-0">
+                            <div class="col-md-4 text-center">
+                                <img src="img/one.svg" class="img-fluid rounded-start" alt="one">
+                            </div>
+                            <div class="col-md-8">
+                                <div class="card-body">
+                                    <h5 class="card-title">Enroll With Program</h5>
+                                    <p class="card-text">Enroll In Bagcampus Power Camp 2021. Fill The Form Available
+                                        <a href="http://" target="_blank" rel="noopener noreferrer">Here</a>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-10">
+                    <div class="card mb-3 spl-br">
+                        <div class="row g-0" style="flex-direction: row-reverse;">
+                            <div class="col-md-4 text-center">
+                                <img src="img/two.svg" class="img-fluid rounded-start" alt="two">
+                            </div>
+                            <div class="col-md-8">
+                                <div class="card-body">
+                                    <h5 class="card-title">Complete Tutorial</h5>
+                                    <p class="card-text">Bagcampus Internship And Job Fest Cell is Conducting Special
+                                        Tutorials For Participants of Bagcampus Power Camp 2021.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-10">
+                    <div class="card mb-3 spl-br">
+                        <div class="row g-0">
+                            <div class="col-md-4 text-center">
+                                <img src="img/three.svg" class="img-fluid rounded-start" alt="three">
+                            </div>
+                            <div class="col-md-8">
+                                <div class="card-body">
+                                    <h5 class="card-title">Submit Assignments</h5>
+                                    <p class="card-text">After Tutorial, Team Bagcampus Will Provide You With Assignments.
+                                        Applicants Have To Submit Them.</p>
+                                    <p class="card-text"><small class="text-muted">By Considering Students Engagement
+                                            Bagcampus give 14 Day for Submission. Even, Student Can Submit All Submission On
+                                            Same Day</small></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-10">
+                    <div class="card mb-3 spl-br">
+                        <div class="row g-0" style="flex-direction: row-reverse;">
+                            <div class="col-md-4 text-center">
+                                <img src="img/four.svg" class="img-fluid rounded-start" alt="four">
+                            </div>
+                            <div class="col-md-8">
+                                <div class="card-body">
+                                    <h5 class="card-title">Complete Project</h5>
+                                    <p class="card-text">Bagcampus Internship and Job Fest Cell Will Provide You With
+                                        Specific Project and Applicants Have To Complete Them Before Deadline</p>
+                                    <p class="card-text"><small class="text-muted">Here it is Done!</small></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section>
+        <div class="resister_book resister_bg_1 mt-5">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xl-12">
+                        <div class="resister_text text-center">
+                            <h3>Join For Amzing Program<br>
+                                It's All Free</h3>
+                            <a href="#" class="boxed-btn-white"> Register </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section>
+        <div class="benefits" id="benefits">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-12 pb-5">
+                        <div class="section-head">
+                            <h1 class="heading">
+                                Rewards
+                            </h1>
+                        </div>
+                    </div>
+                    <div class="col-md-12">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-9">
+                                <ul id="benefits-list">
+                                    <li>
+                                        <a data-toggle="collapse" class="collapsed" href="#benefits1" aria-expanded="false">
+                                            Certificate <i class="fa fa-minus-circle"></i></a>
+                                        <div id="benefits1" class="collapse" data-parent="#benefits-list">
+                                            <p>Get Verifable Certificate On Completion of Both Tasks. Certificate Will Be
+                                                Available On Bagcampus Portal For Verifications.</p>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <a data-toggle="collapse" class="collapsed" href="#benefits5" aria-expanded="false">
+                                            Power Camp Profile <i class="fa fa-minus-circle"></i></a>
+                                        <div id="benefits5" class="collapse" data-parent="#benefits-list">
+                                            <p>For Each Participant of Bagcampus Power Camp We Will Provide With Special
+                                                Profile Which Include Your Details And Performance</p>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <a data-toggle="collapse" href="#benefits2" class="collapsed"
+                                            aria-expanded="false">Paid
+                                            Internship / Jobs<i class="fa fa-minus-circle"></i></a>
+                                        <div id="benefits2" class="collapse" data-parent="#benefits-list">
+                                            <p>You Will Get Chance To Work In Top Startups/Companies/Oragnisation After
+                                                Completion of Program.</p>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <a data-toggle="collapse" href="#benefits3" class="collapsed">Free Course On Paid
+                                            Portals<i class="fa fa-minus-circle"></i></a>
+                                        <div id="benefits3" class="collapse" data-parent="#benefits-list">
+                                            <p>You Will Recive Paid Courses For Free From Team Bagcampus On Completion of
+                                                Program.</p>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <a data-toggle="collapse" href="#benefits4" class="collapsed"
+                                            aria-expanded="false">Free
+                                            T-Shirts<i class="fa fa-minus-circle"></i></a>
+                                        <div id="benefits4" class="collapse" data-parent="#benefits-list">
+                                            <p>Very Few Top Performer Will Get Frees T-Shirts With Bagcampus™ Logo.</p>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="heading">
+                        <h2>Sessions</h2>
+                    </div>
+                </div>
+                <div class="col-md-12">
+                    <div class="event_area">
+                        <h1 class="vr_text d-none d-lg-block">Program Sessions</h1>
+                        <div class="container">
+                            <div class="double_line">
+                                <div class="row">
+                                    <div class="col-xl-3 col-lg-3">
+                                        <div class="date">
+                                            <h3>Web Development</h3>
+                                        </div>
+                                    </div>
+                                    <div class="col-xl-9 col-lg-9">
+                                        <div class="single_speaker">
+                                            <div class="speaker-name">
+                                                <div class="heading d-flex justify-content-between align-items-center">
+                                                    <span>Basics of HTML CSS And Bootstrap</span>
+                                                    <div class="time">
+                                                        Aug 16, 2021
+                                                    </div>
+                                                </div>
+                                                <p class="pl-2"><b>Session 01:</b> We'll Be Discussing On Basics of Web
+                                                    Development.
+                                                    Starting With HTML, CSS And We Will Get Start With Bootstrap v4.6
+                                                </p>
+                                                <div class="heading d-flex justify-content-between align-items-center">
+                                                    <span>Project</span>
+                                                    <div class="time">
+                                                        Aug 17, 2021
+                                                    </div>
+                                                </div>
+                                                <p class="pl-2"><b>Session 02:</b> Whatever We Learned in Session One We'll
+                                                    Make a Buetifull Bootstrap Project With That. We'll Create Personal
+                                                    Portfolio And Amzing Disscussion
+                                                </p>
+                                            </div>
+                                        </div>
+                                        <div class="single_speaker">
+                                            <div class="speaker-name">
+                                                <div class="heading d-flex justify-content-between align-items-center">
+                                                    <span>JS, JQuery & CDN</span>
+                                                    <div class="time">
+                                                        Aug 18, 2021
+                                                    </div>
+                                                </div>
+                                                <p class="pl-2"><b>Session 03:</b> We Will Discuss On Javascript, Jquery and
+                                                    Various CDNs Like aos(Animate On Scroll), Font-Liabraries Like
+                                                    FontAweasom And Unicons by Iconscout Also We'll Discuss On Great Project
+                                                    With Help of Our Learnings
+                                                </p>
+                                            </div>
+                                        </div>
+                                        <div class="single_speaker">
+                                            <div class="speaker-name">
+                                                <div class="heading d-flex justify-content-between align-items-center">
+                                                    <span>PHP & MySql</span>
+                                                    <div class="time">
+                                                        Aug 19,2021
+                                                    </div>
+                                                </div>
+                                                <p class="pl-2"><b>Session 04:</b>The Tutorials On PHP Stating With PHP
+                                                    Forms - Login And Register With PHP
+                                                    And Basic OOP Concepts of PHP. We'll Learn MySql Database And Some DBMS
+                                                    (Database Management System) Concepts.</p>
+                                                <div class="heading d-flex justify-content-between align-items-center">
+                                                    <span>AJAX And PHP Project</span>
+                                                    <div class="time">
+                                                        Aug 20,2021
+                                                    </div>
+                                                </div>
+                                                <p class="pl-2"><b>Session 05:</b>How To Process Ajax Request And
+                                                    Impementing PHP Knowledge To Create Web
+                                                    Application of MCQ Website</p>
+                                            </div>
+                                        </div>
+                                        <div class="single_speaker">
+                                            <div class="speaker-name">
+                                                <div class="heading d-flex justify-content-between align-items-center">
+                                                    <span>React: Introduction</span>
+                                                    <div class="time">
+                                                        Aug 21,2021
+                                                    </div>
+                                                </div>
+                                                <p class="pl-2"><b>Session 06:</b>Last Session of Web Development Domain.
+                                                    We'll Learn Introduction To
+                                                    React, How To Install React, React Structuring, Adding Styles To React,
+                                                    How To Add Bootstrap in
+                                                    React And React Router Dom</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-xl-3 col-lg-3">
+                                    <div class="date">
+                                        <h3>Digital Marketing</h3>
+                                    </div>
+                                </div>
+                                <div class="col-xl-9 col-lg-9">
+                                    <div class="single_speaker">
+                                        <div class="speaker-name">
+                                            <div class="heading d-flex justify-content-between align-items-center">
+                                                <span>Intro To Digital Marketing</span>
+                                                <div class="time">
+                                                    Not Decided
+                                                </div>
+                                            </div>
+                                            <p class="pl-2"><b>Session 01:</b>We'll Discuss On Basics of Digital Marketing,
+                                                What is SEO, Basic on Digital Advertisments (Google Ads), Affilate
+                                                Marketing, Social Media Marketing, Email Marketing And Other Ways of
+                                                Digital Marketing. In Details Topics Will Be Disccused In Further Sessions
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <div class="single_speaker">
+                                        <div class="speaker-name">
+                                            <div class="heading d-flex justify-content-between align-items-center">
+                                                <span>SEO And Google Analtics</span>
+                                                <div class="time">
+                                                    Not Decided
+                                                </div>
+                                            </div>
+                                            <p class="pl-2"><b>Session 02:</b> How To Write Good Blog, Way To Google Search
+                                                Console, On-Page SEO And Off-Page SEO,
+                                                How To Create Sitemaps, What is Google
+                                                Analytics And How To Use It</p>
+                                        </div>
+                                    </div>
+                                    <div class="single_speaker">
+                                        <div class="speaker-name">
+                                            <div class="heading d-flex justify-content-between align-items-center">
+                                                <span>Keyword Research And Email Marketing</span>
+                                                <div class="time">
+                                                    Not Decided
+                                                </div>
+                                            </div>
+                                            <p class="pl-2"><b>Session 03:</b> We'll Discuss More About SEO And Various
+                                                Tools Which We Will Use For Keyword
+                                                Research. A Breif on SEMRush And Google Keyword Planner. Disscussion on
+                                                Email Marketing</p>
+                                        </div>
+                                    </div>
+                                    <div class="single_speaker">
+                                        <div class="speaker-name">
+                                            <div class="heading d-flex justify-content-between align-items-center">
+                                                <span>Google Ads</span>
+                                                <div class="time">
+                                                    Not Decided
+                                                </div>
+                                            </div>
+                                            <p class="pl-2"><b>Session 04:</b> How To Run Ads On Google. A Breif On Youtube
+                                                Ads And Google Ads. What Are Google Ads Beginers Offer</p>
+                                        </div>
+                                    </div>
+                                    <div class="single_speaker">
+                                        <div class="speaker-name">
+                                            <div class="heading d-flex justify-content-between align-items-center">
+                                                <span>Final Session </span>
+                                                <div class="time">
+                                                    Not Decided
+                                                </div>
+                                            </div>
+                                            <p class="pl-2"><b>Session 05:</b> How To Start Career in Affilate Marketing,
+                                                More About SEO, SEM, Social Media Marketing</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="double_line">
+                                <div class="row">
+                                    <div class="col-xl-3 col-lg-3">
+                                        <div class="date">
+                                            <h3>Data Science</h3>
+                                        </div>
+                                    </div>
+                                    <div class="col-xl-9 col-lg-9">
+                                        <div class="single_speaker">
+                                            <div class="speaker-name">
+                                                <div class="heading d-flex justify-content-between align-items-center">
+                                                    <span>Data collection</span>
+                                                    <div class="time">
+                                                        Not Updated
+                                                    </div>
+                                                </div>
+                                                <p class="pl-2"><b>Session 01:</b> We'll Be Discussing On Basics of Data
+                                                    Science. Basic Statistical Descriptions of Data (Metadata),Open Access
+                                                    Datasets - Google Dataset Search, Kaggle, UCI Machine Learning
+                                                    Repository, Visual Data, MNIST.
+                                                </p>
+                                            </div>
+                                        </div>
+                                        <div class="single_speaker">
+                                            <div class="speaker-name">
+                                                <div class="heading d-flex justify-content-between align-items-center">
+                                                    <span>Analytical Methods</span>
+                                                    <div class="time">
+                                                        Not Updated
+                                                    </div>
+                                                </div>
+                                                <p class="pl-2"><b>Session 02:</b> We'll Be Discussing On Data Exploration –
+                                                    Reading data from file, dataframe, Data import and export; Apply basic
+                                                    statistical
+                                                    methods- mean, max, variance on the data and visualize in R/Python
+                                                    Pandas in Python/R.
+                                                </p>
+                                            </div>
+                                        </div>
+                                        <div class="single_speaker">
+                                            <div class="speaker-name">
+                                                <div class="heading d-flex justify-content-between align-items-center">
+                                                    <span>Data visualization</span>
+                                                    <div class="time">
+                                                        Not Updated
+                                                    </div>
+                                                </div>
+                                                <p class="pl-2"><b>Session 03:</b> We'll Be Discussing On Data
+                                                    visualization: Basic charts scatter plots, Histogram, advanced
+                                                    visualization Techniques
+                                                    like streamline and statistical measures, Plots, Graphs, networks,
+                                                    Hierarchies, Reports.
+                                                    <br>
+                                                    <b>Python: </b> pandas library-Data frame, Data cleaning, Visualization
+                                                    using python
+                                                    <br>
+                                                    <b>Google chart API:</b> Introduction to Keras, Tensorflow and apache
+                                                    spark
+                                                </p>
+                                            </div>
+                                        </div>
+                                        <div class="single_speaker">
+                                            <div class="speaker-name">
+                                                <div class="heading d-flex justify-content-between align-items-center">
+                                                    <span>Data Statistical Inference</span>
+                                                    <div class="time">
+                                                        Not Updated
+                                                    </div>
+                                                </div>
+                                                <p class="pl-2"><b>Session 04:</b> We'll Be Discussing On Descriptive
+                                                    Statistics and Inferential Statistics, ANOVA
+                                                    and ANOCOVA And Measures of Position
+                                                    <br>
+                                                    <b> Linear Algebra: </b> Matrix and vector algebra
+                                                    <br>
+                                                    <b> Understanding of calculus: </b> concept of function and derivative
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-xl-3 col-lg-3">
+                                    <div class="date">
+                                        <h3>Machine Learning</h3>
+                                    </div>
+                                </div>
+                                <div class="col-xl-9 col-lg-9">
+                                    <div class="single_speaker">
+                                        <div class="speaker-name">
+                                            <div class="heading d-flex justify-content-between align-items-center">
+                                                <span>Introduction</span>
+                                                <div class="time">
+                                                    Not Updated
+                                                </div>
+                                            </div>
+                                            <p class="pl-2"><b>Session 01: </b> We'll Be Discussing On Basics Machine
+                                                Learning, Data and types, Models. Data and Dimensionality, Regression
+                                                :Univariate Regression and Multivariate Regression
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <div class="single_speaker">
+                                        <div class="speaker-name">
+                                            <div class="heading d-flex justify-content-between align-items-center">
+                                                <span>ML : Project</span>
+                                                <div class="time">
+                                                    Not Updated
+                                                </div>
+                                            </div>
+                                            <p class="pl-2"><b>Session 02: </b>Project Developmemt: How To Research and
+                                                analyze data sets using a
+                                                variety of statistical and machine
+                                                learning techniques Communicate final results and give context</p>
+                                        </div>
+                                    </div>
+                                    <div class="single_speaker">
+                                        <div class="speaker-name">
+                                            <div class="heading d-flex justify-content-between align-items-center">
+                                                <span>Intro To AI</span>
+                                                <div class="time">
+                                                    Not Updated
+                                                </div>
+                                            </div>
+                                            <p class="pl-2"><b>Session 03: </b>Biological Neuron, Introduction to ANN,
+                                                Learning parameters, Concept of
+                                                Deep Learning</p>
+                                        </div>
+                                    </div>
+                                    <div class="single_speaker">
+                                        <div class="speaker-name">
+                                            <div class="heading d-flex justify-content-between align-items-center">
+                                                <span>Career in ML</span>
+                                                <div class="time">
+                                                    Not Updated
+                                                </div>
+                                            </div>
+                                            <p class="pl-2"><b>Session 04: </b>How To Get Internship in Machine Learning and
+                                                Data Science, Resume Building, Start In Machine Learning Career, Top
+                                                Internships To Apply In ML, Top Questions Asked In ML Interviews</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="double_line">
+                                <div class="row">
+                                    <div class="col-xl-3 col-lg-3">
+                                        <div class="date">
+                                            <h3>Android - Flutter</h3>
+                                        </div>
+                                    </div>
+                                    <div class="col-xl-9 col-lg-9">
+                                        <div class="single_speaker">
+                                            <div class="speaker-name">
+                                                <div class="heading d-flex justify-content-between align-items-center">
+                                                    <span>Data collection</span>
+                                                    <div class="time">
+                                                        Not Updated
+                                                    </div>
+                                                </div>
+                                                <p class="pl-2"><b>Session 01:</b> We'll Be Discussing On Basics of Data
+                                                    Science. Basic Statistical Descriptions of Data (Metadata),Open Access
+                                                    Datasets - Google Dataset Search, Kaggle, UCI Machine Learning
+                                                    Repository, Visual Data, MNIST.
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <section id="counts" class="counts">
+        <div class="container">
+            <div class="section-head">
+                <h1 class="heading">
+                    About Bagcampus
+                </h1>
+            </div>
+            <div class="row aos-init aos-animate" data-aos="fade-up">
+                <div class="col-lg-3 col-md-6">
+                    <div class="count-box">
+                        <i class="far fa-smile-beam"></i>
+                        <span data-toggle="counter-up">25000 +</span>
+                        <p>Registered User</p>
+                    </div>
+                </div>
+    
+                <div class="col-lg-3 col-md-6 mt-5 mt-md-0">
+                    <div class="count-box">
+                        <i class="fas fa-print"></i>
+                        <span data-toggle="counter-up">65 +</span>
+                        <p>Internship Opportunities</p>
+                    </div>
+                </div>
+    
+                <div class="col-lg-3 col-md-6 mt-5 mt-lg-0">
+                    <div class="count-box">
+                        <i class="fas fa-align-center"></i>
+                        <span data-toggle="counter-up">80 +</span>
+                        <p>Oraganisations</p>
+                    </div>
+                </div>
+    
+                <div class="col-lg-3 col-md-6 mt-5 mt-lg-0">
+                    <div class="count-box">
+                        <i class="fab fa-accessible-icon"></i>
+                        <span data-toggle="counter-up">70 +</span>
+                        <p>Job Opportunities</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <section id="Social" class="Social">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 mt-5 mb-2 animate__backInDown animate__animated">
+                    <div class="section-header heading text-center justify-content-center py-3">
+                        <h2 class="section-title">Find Us On Following Platforms</h2>
+                        <p class="mb-4"></p>
+                    </div>
+                </div>
+                <div class="col-lg-6"><img src="/static/media/undraw_Social_life_re_x7t5.5cd173c6.svg"
+                        class="img-fluid social-icon" alt="Social Media Link"></div>
+                <div class="col-lg-6 mt-5 mt-lg-0 d-flex">
+                    <div class="row align-self-center gy-4">
+                        <div class="col-md-6 aos-init aos-animate mt-4" data-aos="zoom-out" data-aos-delay="200">
+                            <div class="Social-box d-flex align-items-center"><i class="fa fa-check"></i>
+                                <h3><a href="https://in.linkedin.com/company/bagcampus" target="_blank"
+                                        rel="noopener noreferrer">LinkedIn</a></h3>
+                            </div>
+                        </div>
+                        <div class="col-md-6 aos-init aos-animate mt-4" data-aos="zoom-out" data-aos-delay="200">
+                            <div class="Social-box d-flex align-items-center"><i class="fa fa-check"></i>
+                                <h3><a href="https://github.com/bagcampus/" target="_blank"
+                                        rel="noopener noreferrer">Github</a></h3>
+                            </div>
+                        </div>
+                        <div class="col-md-6 aos-init aos-animate mt-4" data-aos="zoom-out" data-aos-delay="200">
+                            <div class="Social-box d-flex align-items-center"><i class="fa fa-check"></i>
+                                <h3><a href="https://medium.com/bagcampus" target="_blank"
+                                        rel="noopener noreferrer">Medium</a></h3>
+                            </div>
+                        </div>
+                        <div class="col-md-6 aos-init aos-animate mt-4" data-aos="zoom-out" data-aos-delay="200">
+                            <div class="Social-box d-flex align-items-center"><i class="fa fa-check"></i>
+                                <h3><a href="https://angel.co/company/bagcampus" target="_blank"
+                                        rel="noopener noreferrer">AngelList</a></h3>
+                            </div>
+                        </div>
+                        <div class="col-md-6 aos-init aos-animate mt-4" data-aos="zoom-out" data-aos-delay="200">
+                            <div class="Social-box d-flex align-items-center"><i class="fa fa-check"></i>
+                                <h3><a href="https://www.facebook.com/Bagcampus-101950538467707/" target="_blank"
+                                        rel="noopener noreferrer">Facebook</a></h3>
+                            </div>
+                        </div>
+                        <div class="col-md-6 aos-init aos-animate mt-4" data-aos="zoom-out" data-aos-delay="200">
+                            <div class="Social-box d-flex align-items-center"><i class="fa fa-check"></i>
+                                <h3><a href="https://twitter.com/Bagcampus1" target="_blank"
+                                        rel="noopener noreferrer">Twitter</a></h3>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <section>
+        <div id="faq" class="faq section-bg">
+            <div class="container">
+                <div class="col-sm-12">
+                    <div class="section-head">
+                        <h1 class="heading">
+                            F. A. Q.
+                        </h1>
+                    </div>
+                </div>
+                <div class="faq-list">
+                    <ul>
+                        <li data-aos="fade-up" data-aos-delay="100" class="aos-init aos-animate">
+                            <i class="bx bx-help-circle icon-help"></i> <a data-toggle="collapse" href="#faq-list-2"
+                                class="collapsed">How Can We Register?</a>
+                            <div id="faq-list-2" class="collapse" data-parent=".faq-list">
+                                <p>
+                                    <a href="https://forms.gle/jdRVCTJ5biJ4btHZ9">Click Here</a> Fill The Form To Enroll In
+                                    Program.
+                                </p>
+                            </div>
+                        </li>
+                        <li data-aos="fade-up" data-aos-delay="200" class="aos-init aos-animate">
+                            <i class="bx bx-help-circle icon-help"></i> <a data-toggle="collapse" href="#faq-list-3"
+                                class="collapsed">What
+                                Various Domain In Which I Can Enroll?</a>
+                            <div id="faq-list-3" class="collapse" data-parent=".faq-list">
+                                <p class="px-4">
+                                    The Various Domains Are,
+                                </p>
+                                <ul class="px-4">
+                                    <li class="p-0 mt-2">Web Development</li>
+                                    <li class="p-0">Android Development</li>
+                                    <li class="p-0">Digital Marketing</li>
+                                    <li class="p-0">Graphic Designing</li>
+                                    <li class="p-0">Data Science</li>
+                                </ul>
+                                <p></p>
+                            </div>
+                        </li>
+                        <li data-aos="fade-up" data-aos-delay="300" class="aos-init">
+                            <i class="bx bx-help-circle icon-help"></i> <a data-toggle="collapse" href="#faq-list-4"
+                                class="collapsed">Whom to
+                                contact for any enquiries?</a>
+                            <div id="faq-list-4" class="collapse" data-parent=".faq-list">
+                                <p>
+                                    You Can Ask For Any Query at support@bagcampus.in
+                                </p>
+                            </div>
+                        </li>
+                        <li data-aos="fade-up" data-aos-delay="400" class="aos-init">
+                            <i class="bx bx-help-circle icon-help"></i> <a data-toggle="collapse" href="#faq-list-5"
+                                class="collapsed">How to I
+                                get acknowledgement for future events ?</a>
+                            <div id="faq-list-5" class="collapse" data-parent=".faq-list">
+                                <p>
+                                    If You Want To Join Our Events In Future Do Register at http://bagcampus.in/ And Join
+                                    Our
+                                    Whatsapp Group
+                                </p>
+                            </div>
+                        </li>
+                        <li data-aos="fade-up" data-aos-delay="400" class="aos-init aos-animate">
+                            <i class="bx bx-help-circle icon-help"></i> <a data-toggle="collapse" href="#faq-list-6"
+                                class="collapsed">Is there
+                                any certification for program?</a>
+                            <div id="faq-list-6" class="collapse" data-parent=".faq-list">
+                                <p>
+                                    Yes, On Completion of both Task You Will Get Certificate.
+                                </p>
+                            </div>
+                        </li>
+                        <li data-aos="fade-up" data-aos-delay="400" class="aos-init aos-animate">
+                            <i class="bx bx-help-circle icon-help"></i> <a data-toggle="collapse" href="#faq-list-7"
+                                class="collapsed">Where We
+                                Can Find Terms And Conditions?</a>
+                            <div id="faq-list-7" class="collapse" data-parent=".faq-list">
+                                <p>
+                                    at https://skillsfest.bagcampus.in/terms
+                                </p>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer id="footer">
+        <div class="footer-top">
+            <div class="container">
+                <div class="row">
+    
+                    <div class="col-lg-3 col-md-6 footer-info">
+                        <img src="https://ambassador.bagcampus.in/img/logo-white.png" alt="logo">
+                    </div>
+    
+                    <div class="col-lg-3 col-md-6 footer-links">
+                        <h4>Useful Links</h4>
+                        <ul>
+                            <li><i class="fa fa-angle-right"></i> <a href="http://bagcampus.in" target="_blank"
+                                    rel="noopener noreferrer">Home</a></li>
+                            <li><i class="fa fa-angle-right"></i> <a href="#">About us</a></li>
+                            <li><i class="fa fa-angle-right"></i> <a href="https://skillsfest.bagcampus.in/terms">Terms And
+                                    Policy</a></li><a href="http://bagcampus.in/">
+                            </a>
+                        </ul><a href="http://bagcampus.in/">
+                        </a>
+                    </div><a href="http://bagcampus.in/">
+    
+                    </a>
+                    <div class="col-lg-3 col-md-6 footer-contact"><a href="http://bagcampus.in/">
+                            <h4>Contact Us</h4>
+                            <p>
+                                <!-- A108 Adam Street <br>
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          New York, NY 535022<br>
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          United States <br> -->
+                                <strong>Phone:</strong> +91 9403 179 389<br>
+                                <strong>Email:</strong> support@bagcampus.in<br>
+                            </p>
+    
+                        </a>
+                        <div class="social-links"><a href="http://bagcampus.in/">
+                            </a><a href="https://www.linkedin.com/company/" class="linkedin"><i
+                                    class="fab fab-linkedin"></i></a>
+                            <a href="https://medium.com/bagcampus" class="medium"><i class="fab fab-medium"></i></a>
+                            <a href="https://www.facebook.com/pages/category/Education-Website/Bagcampus-101950538467707/"
+                                class="facebook"><i class="fa fa-facebook"></i></a>
+                            <a href="https://twitter.com/@Bagcampus1" class="twitter"><i class="fa fa-twitter"></i></a>
+                        </div>
+    
+                    </div>
+    
+                </div>
+            </div>
+        </div>
+                                
+                                    <div class="container">
+                                        <div class="copyright">
+                                            © Copyright <strong>bagcampus</strong>. All Rights Reserved
+                                        </div>
+                                        <div class="credits">
+                                            Powered by <a href="http://bagcampus.in" target="_blank" rel="noopener noreferrer">bagcampus</a>
+                                        </div>
+                                    </div>
+                                    </footer>
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
         integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
         crossorigin="anonymous"></script>
