@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+
+<url>
+  <loc>https://powercamp.bagcampus.in/</loc>
+  <lastmod>2021-08-10T15:19:56+00:00</lastmod>
+  <priority>1.00</priority>
+</url>
+<url>
+  <loc>https://powercamp.bagcampus.in/pages/about</loc>
+  <lastmod>2021-08-10T15:19:56+00:00</lastmod>
+  <priority>0.90</priority>
+</url>
+<url>
+  <loc>https://powercamp.bagcampus.in/pages/faq</loc>
+  <lastmod>2021-08-10T15:19:56+00:00</lastmod>
+  <priority>0.90</priority>
+</url>
+<url>
+  <loc>https://powercamp.bagcampus.in/pages/rewards</loc>
+  <lastmod>2021-08-10T15:19:56+00:00</lastmod>
+  <priority>0.90</priority>
+</url>
+<url>
+  <loc>https://powercamp.bagcampus.in/pages/steps</loc>
+  <lastmod>2021-08-10T15:19:56+00:00</lastmod>
+  <priority>0.90</priority>
+</url>
+<url>
+  <loc>https://powercamp.bagcampus.in/web-development-schedule</loc>
+  <lastmod>2021-08-10T15:19:56+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://powercamp.bagcampus.in/digital-marketing-schedule</loc>
+  <lastmod>2021-08-10T15:19:56+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://powercamp.bagcampus.in/data-science-schedule</loc>
+  <lastmod>2021-08-10T15:19:56+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://powercamp.bagcampus.in/machine-learning-schedule</loc>
+  <lastmod>2021-08-10T15:19:56+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://powercamp.bagcampus.in/software-cpp-schedule</loc>
+  <lastmod>2021-08-10T15:19:56+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://powercamp.bagcampus.in/flutter-android-schedule</loc>
+  <lastmod>2021-08-10T15:19:56+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://powercamp.bagcampus.in/iot-session-schedule</loc>
+  <lastmod>2021-08-10T15:19:56+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+
+
+</urlset>
