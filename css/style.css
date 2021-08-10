@@ -324,7 +324,7 @@
     }
 
     #benefits #benefits-list a.collapsed i::before {
-        content: "\f055" !important;
+            content: '\eb37' !important;
     }
 
     @media (max-width: 768px) {
@@ -724,6 +724,10 @@ span#view-more-btn {
             padding-bottom: 40px;
         }
     }
+
+    #faq li.aos-init.aos-animate {
+    display: flex;
+    }   
 
 
     #footer {
