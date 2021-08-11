@@ -65,3 +65,9 @@ li.zf-fmFooter button {
 .form-heading p {
     margin-bottom: 35px;
 }
+
+@media (max-width: 775.99px){
+.zf-templateWidth {
+    margin-top: -35px !important;
+}
+}
