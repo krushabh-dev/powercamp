@@ -1,28 +1,26 @@
 <!DOCTYPE html>
 
-<html xmlns="http://www.w3.org/1999/xhtml" lang="en-IN">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en-in">
 
 <head>
-    <meta charset="utf-8" />
+    <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <title>
-        Microsoft Forms
-    </title>
-    <link rel="icon" href="https://cdn.forms.office.net/forms/images/favicon.ico" />
+    <title>Bagcampus Power Camp</title>
+    <link rel="icon" href="https://cdn.forms.office.net/forms/images/favicon.ico">
     <script type="text/javascript">
         window.formsInitialVisibility = document.visibilityState;
         document.addEventListener("visibilitychange", function () { window.formsVisibilityChange = true; });
     </script>
 
     <script type="text/javascript">
-        window.NavKeyPoints = {
+            window.NavKeyPoints = {
             ServerGetPreviewTime: 0,
-            ServerPageTime: 6,
+            ServerPageTime: 9,
             PageStartTime: Date.now(),
         };
-    </script>
+</script>
     <script>
         function reloadNoCdn() { var n = location, o = n.search; 0 < o.length && (o = o.substring(1)); for (var t, e, r = o.split("&"), h = [], i = r.length, s = 0; s < i; s += 1)if (r[s]) { if (t = r[s].split("="), 2 === t.length && "nocdn" === t[0] && (t[1] = parseInt(t[1]) + 1, e = !0, 3 < t[1])) return; h.push(t.join("=")) } e || h.push("nocdn=1"); var o = "?" + h.join("&"), a = n.protocol + "//" + n.host + n.pathname + o + n.hash; setTimeout(function () { n.href = a }, 2e3) }</script>
     <script type="text/x-mathjax-config">
@@ -47,16 +45,15 @@
     </script>
 
     <script type="text/javascript">
-        window.shellInfo = { "serverBuild": "16.0.14403.36677", "clientBuild": "formweekly_cd_20210728.3", "baseClientBuild": "formweekly_cd_20210728.3", "ring": "Business", "cdnEndpoint": "https://cdn.forms.office.net/forms", "swEnabled": true, "srList": ["https://cdn.forms.office.net/forms/scripts/dists/light-response-page.min.5a9f531.js?formsSr=1", "https://cdn.forms.office.net/forms/css/dist/light-response-page.min.6306a9e.css?formsSr=1"] }
-    </script>
+            window.shellInfo = { "serverBuild": "16.0.14403.36677", "clientBuild": "formweekly_cd_20210728.3", "baseClientBuild": "formweekly_cd_20210728.3", "ring": "MSA", "cdnEndpoint": "https://cdn.forms.office.net/forms", "swEnabled": true, "srList": ["https://cdn.forms.office.net/forms/scripts/dists/light-response-page.min.5a9f531.js?formsSr=1", "https://cdn.forms.office.net/forms/css/dist/light-response-page.min.6306a9e.css?formsSr=1"] }
+        </script>
     <script
         type="text/javascript">!function () { "use strict"; var n = function () { return (n = Object.assign || function (n) { for (var e, t = 1, r = arguments.length; t < r; t++)for (var o in e = arguments[t]) Object.prototype.hasOwnProperty.call(e, o) && (n[o] = e[o]); return n }).apply(this, arguments) }; Object.create; var e; Object.create; !function (n) { n[n.Pending = 0] = "Pending", n[n.Resolved = 1] = "Resolved", n[n.Rejected = 2] = "Rejected" }(e || (e = {})); var t = function () { function n(n) { var t = this; n.then((function () { t.t = e.Resolved }), (function () { t.t = e.Rejected })), this.o = n, this.t = e.Pending } var t = n.prototype; return t.promise = function () { return this.o }, t.states = function () { return this.t }, n }(), r = function () { function n() { var n = this; this.o = new t(new Promise((function (e, t) { n.i = e, n.u = t }))) } var e = n.prototype; return e.promise = function () { return this.o.promise() }, e.resolve = function (n) { return this.i(n), this }, e.reject = function (n) { return this.u(n), this }, e.states = function () { return this.o.states() }, n }(); function o(n) { return a(n || window.location.search.substring(1)) } function a(n) { var e = {}; return n && n.trim().split("&").forEach((function (n) { var t = n.indexOf("="); -1 === t && (t = n.length); var r = n.substring(0, t).trim(); r && (e[r] = decodeURIComponent(n.substring(t + 1) || "").trim()) })), e } function i(n) { return n ? (n.startsWith("t=") ? "" : "Bearer ") + n : "" } var u = [{ startup: "/handlers/ResponsePageStartup.ashx", mode: "Shell", pathname: "/pages/responsepage.aspx" }, { startup: "/handlers/AssignmentsResponsePageStartup.ashx", mode: "Shell", pathname: "/pages/assignmentsresponsepage.aspx" }, { mode: "Shell", match: function (n) { return !1 }, pathname: "/pages/neodesignpage.aspx", startup: "/handlers/NeoDesignPageStartup.ashx", disabled: !0 }, { mode: "CacheApi", match: function (n) { return !1 }, pathname: "/pages/neodesignpage.aspx" }]; function s() { return window.shellInfo } function c() { var e, t; e = { complete: !0 }, (t = s()) && (window.shellInfo = n(n({}, t), e)) } function f() { var n = o().fsw, e = s(); return !("0" === n || !e) && e.swEnabled } function d() { return f() && "1" === o().fswReload } function l(e) { var t, r = s(); return f() && r ? n(n({}, function () { var n, e = s(); return f() && e ? ((n = {})["x-fsw-client"] = e.clientBuild, n["x-fsw-server"] = e.serverBuild, n["x-fsw-baseclient"] = e.baseClientBuild, n["x-fsw-ring"] = e.ring, n["x-fsw-enable"] = "1", n) : {} }()), ((t = {})["x-fsw-startup"] = "1", t["x-fsw-page"] = e, t["x-fsw-srlist"] = JSON.stringify(r.srList || []), t["x-fsw-cdn"] = r.cdnEndpoint, t)) : {} } window; function p(n) { var e = typeof n; return "function" === e || "object" === e && !!n } function v(n) { for (var e = [], t = 1; t < arguments.length; t++)e[t - 1] = arguments[t]; return e.length < 1 || !p(n) || e.forEach((function (e) { h(e).forEach((function (t) { n[t] = e[t] })) })), n } function h(n) { return p(n) ? Object.keys(n) : [] } var w = v; function g(n, e, t) { void 0 === t && (t = !1); var r = n.indexOf("#"), o = -1 === r ? "" : n.substr(r), i = (n = -1 === r ? n : n.substr(0, r)).indexOf("?"), u = -1 === i ? "" : n.substr(i); n = -1 === i ? n : n.substr(0, i); var s = {}; return u && (s = a(u.substr(1))), w(s, e), n + "?" + (t ? function (n) { var e = ""; n && "object" == typeof n && (e = Object.keys(n).reduce((function (e, t) { return e.push(encodeURIComponent(t) + "=" + encodeURIComponent(n[t])), e }), []).join("&")); return e }(s) : $.param(s)) + o } function m() { var n; return !(!f() || "0" === o().fsw) && (location.replace(g(location.href, ((n = {}).fsw = "0", n), !0)), !0) } function R(n) { return 200 === n || 202 === n || 201 === n } function S(n, e, t) { return { response: { body: t, requestUri: n.responseURL, statusCode: e, statusText: e.toString(), headers: { "X-CorrelationId": n.getResponseHeader("X-CorrelationId"), "X-FailureReason": n.getResponseHeader("X-FailureReason"), "X-MSEdge-Ref": n.getResponseHeader("X-MSEdge-Ref") } } } } function b(n, e, t) { var r, o = e.serverInfo; if (r = e, Object.keys(r).indexOf("data") > -1) { var a = e.data, i = o.startupStatus; return R(i) ? function (n) { var e = function (n) { var e = n, t = e.data, r = e.serverInfo, o = t, a = o.form, i = o.responses; return a.ownResponses = i, { data: a, serverInfo: r } }, t = function (n) { var e = n; return { data: e.data, serverInfo: e.serverInfo } }; switch (n) { case "/pages/assignmentsresponsepage.aspx": case "/pages/responsepage.aspx": return e; case "/pages/neodesignpage.aspx": return t; default: return e } }(t)(e) : { error: S(n, i, JSON.stringify(a)), serverInfo: o } } var u = e.formWithResponse, s = u.status, c = u.responseText; if (R(s)) { var f = function (n) { try { return JSON.parse(n) } catch (n) { return null } }(c), d = f.form, l = f.responses; return d.ownResponses = l, { data: d, serverInfo: o } } return { error: S(n, s, c), serverInfo: o } } !function (e, t) { void 0 === t && (t = {}); var a = function (n) { try { var e = n.pathname; return e = e.toLowerCase(), u.find((function (t) { return t.pathname === e && ("function" != typeof t.match || t.match(n)) })) } catch (n) { return null } }("function" == typeof window.URL ? new URL(location.href) : { pathname: location.pathname, search: location.search }); if (a && "Shell" === a.mode) { var s = o(), f = window.location.origin, p = { data: null, error: null, errorCallback: null, logData: null, state: 1, successCallback: null }; window.FormPrefetchCache = { formCache: p }; var v, h = Date.now(), w = new XMLHttpRequest, R = g("" + f + a.startup, s, !0), S = l(a.pathname), I = n(n({}, S), t); Promise && (v = new r, window.startupPromise = v.promise()), w.open("POST", R), w.setRequestHeader("Content-Type", "application/json"), Object.keys(I).forEach((function (n) { w.setRequestHeader(n.toLowerCase(), I[n]) })), e && w.setRequestHeader("authorization", i(e)), w.send(), p.state = 2, setTimeout((function () { if (2 !== p.state) return; p.logData = { correlationId: "", duration: Date.now() - h }, p.state = 4; var n = { response: { statusCode: 408, statusText: "408", requestUri: R, body: null } }; p.error = n, v && v.reject(n), w.abort(), C() }), 1e4), w.onreadystatechange = function () { if (w.readyState === XMLHttpRequest.DONE) { var e, t, r = w.status, o = !1; try { if (200 === r) { var i = JSON.parse(w.responseText), u = b(w, i, a.pathname); return window.OfficeFormServerInfo = n(n(n({}, window.OfficeFormServerInfo || {}), u.serverInfo), { IsSwReload: d() }), u.error ? (p.error = u.error, p.state = 4, c(), C(), void (v && v.reject(u.error))) : (p.data = u.data, p.state = 3, p.logData = { duration: Date.now() - h, correlationId: w.getResponseHeader("X-CorrelationId") }, c(), p.successCallback && p.successCallback(), void (v && v.resolve(u))) } if (400 === r) { var s = JSON.parse(w.responseText); switch (parseInt(s.error.code)) { case 20001: o = d() ? m() : (t = window.performance ? window.performance.timing.navigationStart.toString() : "0", location.replace(g(location.href, ((e = {}).fswReload = "1", e.fswNavStart = t, e), !0)), !0); break; case 20006: case 20002: case 20003: o = m() } } } catch (n) { if (!(o = m())) return p.error = n, p.state = 4, C(), void (v && v.reject(n)) } if (!(o = o || m())) { var f = { response: { body: w.responseText, requestUri: R, statusCode: r, statusText: r.toString(), headers: { "X-CorrelationId": w.getResponseHeader("X-CorrelationId"), "X-FailureReason": w.getResponseHeader("X-FailureReason"), "X-MSEdge-Ref": w.getResponseHeader("X-MSEdge-Ref") } } }; p.error = f, p.state = 4, v && v.reject(f), C() } } } } else m(); function C() { p.errorCallback && p.errorCallback() } }(null) }();</script>
 
     <link title="Microsoft Forms" rel="alternate"
-        href="https://forms.office.com/formapi/api/embed?url=https%3a%2f%2fforms.office.com%2fpages%2fresponsepage.aspx%3fembed%3dtrue"
-        type="application/json+oembed" />
-
-    <style>
+        href="https://forms.office.com/formapi/api/embed?url=https%3a%2f%2fforms.office.com%2fpages%2fresponsepage.aspx%3fid%3dDQSIkWdsW0yxEjajBLZtrQAAAAAAAAAAAANAATgJ9FxUQjVSUlhMNEtST01NS0ZSRzJSV0JZNUhVSy4u%26embed%3dtrue"
+        type="application/json+oembed">
+<style>
         *,
         :after,
         :before {
@@ -271,28 +268,224 @@
         }
     </style>
 
+    <link rel="prefetch" as="script"
+        href="https://cdn.forms.office.net/forms/scripts/dists/light-response-page.chunk.828.e0e72f6.js">
+    <link rel="prefetch" as="script"
+        href="https://cdn.forms.office.net/forms/scripts/dists/light-response-page.chunk.ext.1fb163f.js">
+    <link rel="prefetch" as="script"
+        href="https://cdn.forms.office.net/forms/scripts/dists/light-response-page.chunk.post.boot.06c2ae0.js">
+    <script type="text/javascript" async="" src="https://az725175.vo.msecnd.net/scripts/jsll-4.js"></script>
+    <script async=""
+        src="https://web.vortex.data.microsoft.com/collect/v1/t.js?ver='2.1'&amp;name='Ms.Webi.PageView'&amp;time='2021-08-11T03%3A54%3A37.967Z'&amp;os='Windows'&amp;appId='JS%3Aforms.office.com'&amp;-ver='1.0'&amp;-impressionGuid='c0d31c7e-94ce-4477-812a-7fe651954975'&amp;-pageName='ResponsePage.aspx'&amp;-uri='https%3A%2F%2Fforms.office.com%2FPages%2FResponsePage.aspx%3Fid%3DDQSIkWdsW0yxEjajBLZtrQAAAAAAAAAAAANAATgJ9FxUQjVSUlhMNEtST01NS0ZSRzJSV0JZNUhVSy4u'&amp;-referrerUri='https%3A%2F%2Fforms.office.com%2FPages%2FResponsePage.aspx%3Fid%3DDQSIkWdsW0yxEjajBLZtrQAAAAAAAAAAAANAATgJ9FxUQjVSUlhMNEtST01NS0ZSRzJSV0JZNUhVSy4u'&amp;-resHeight=768&amp;-resWidth=1366&amp;-pageTags='%7B%22metaTags%22%3A%7B%7D%7D'&amp;-behavior=0&amp;*baseType='Ms.Content.PageView'&amp;*cookieEnabled=true&amp;*isJs=true&amp;*title='Bagcampus%20Power%20Camp'&amp;*isLoggedIn=false&amp;*flashInstalled=false&amp;ext-javascript-ver='1.1'&amp;ext-javascript-libVer='4.3.5'&amp;ext-javascript-domain='forms.office.com'&amp;ext-javascript-msfpc='GUID%3D283ad2c9cecf40eb8633755856f1e0e8%26HASH%3D283a%26LV%3D202105%26V%3D4%26LU%3D1620184299014'&amp;ext-javascript-userConsent=false&amp;ext-user-localId='t%3A096BD689B7D56447126EC6A3B64E6546'&amp;$mscomCookies=false"></script>
 </head>
 
-<body dir="ltr">
+<body dir="ltr" data-new-gr-c-s-loaded="14.1025.0" style="--office-form-theme-primary-color:#03787C;">
 
     <div id="content-root">
-
-        <div class="page-loading-background">
-            <div class="page-loading-messagebox" role="main">
-                <div class="page-loading-animation">
-                    <div class="spinner-tile-animation"></div>
-                </div>
-                <div class="page-loading-message">
-                    Loading…
+        <div id="form-container" class="office-form-theme-page-background office-form-theme-background" dir="ltr">
+            <div class="form-content">
+                <div class="form-content-container">
+                    <div class="office-form-content office-form-page-padding">
+                        <div>
+                            <div class="office-form office-form-theme-shadow" role="form"
+                                aria-labelledby="FormTitleId_TitleElement">
+                                <div class="office-form-title-content ">
+                                    <div class="__title__ office-form-form-title office-form-theme-primary-background office-form-title-container   "
+                                        aria-labelledby="FormTitleId_titleAriaId single-progress-bar" tabindex="-1"
+                                        aria-label="Bagcampus Power Camp" id="FormTitleId_TitleElement">
+                                        <div id="FormTitleId_titleAriaId" class="office-form-title-box left">
+                                            <div aria-level="1" role="heading" class="office-form-title heading-1 ">
+                                                <span class="text-format-content">Bagcampus Power Camp</span></div>
+                                        </div>
+                                    </div>
+                                    <div class="office-form-title-ir-container">
+                                        <div class="title-menu-control-container menu-control-dropup "><button
+                                                tabindex="0" aria-expanded="false" aria-haspopup="true"
+                                                class="menu-control-trigger title-ellipsis-button button-control dark-background-button office-form-theme-primary-background office-form-theme-button"
+                                                aria-label="More options" aria-controls="ImmersiveReaderMenu">
+                                                <div class="button-content"><i
+                                                        class="ms-Icon ms-Icon--More forms-icon-size20x20"
+                                                        role="presentation" aria-hidden="true"></i></div>
+                                            </button></div>
+                                    </div>
+                                </div>
+                                <div class="office-form-body">
+                                    <div class="office-form-notice-container"></div>
+                                    <div class="office-form-question-body">
+                                        <div class="">
+                                            <div class="__question__ office-form-question    ">
+                                                <div class="office-form-question-content">
+                                                    <div id="QuestionId_re15fe019178943e7a1284907d078d065"
+                                                        class="question-title-box ">
+                                                        <div>
+                                                            <div class="office-form-question-title" aria-level="2"
+                                                                role="heading"><span><span
+                                                                        class="ordinal-number">1.</span><span
+                                                                        class="text-format-content">Name:</span></span><span
+                                                                    class="accessibility-reader-no-display"
+                                                                    id="QuestionInfo_re15fe019178943e7a1284907d078d065"
+                                                                    aria-hidden="true">Single line text. </span></div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="office-form-question-element">
+                                                        <div
+                                                            class="student-feedback-view-short-text-field-with-correctness  ">
+                                                            <div class="office-form-textfield"><input
+                                                                    class="office-form-question-textbox office-form-textfield-input form-control office-form-theme-focus-border border-no-radius"
+                                                                    placeholder="Enter your answer" spellcheck="true"
+                                                                    maxlength="4000"
+                                                                    aria-labelledby="QuestionId_re15fe019178943e7a1284907d078d065 QuestionInfo_re15fe019178943e7a1284907d078d065">
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="__question__ office-form-question    ">
+                                                <div class="office-form-question-content">
+                                                    <div id="QuestionId_rf99a1aa7cba94b33bd97de764f669a01"
+                                                        class="question-title-box ">
+                                                        <div>
+                                                            <div class="office-form-question-title" aria-level="2"
+                                                                role="heading"><span><span
+                                                                        class="ordinal-number">2.</span><span
+                                                                        class="text-format-content">Email
+                                                                        address</span></span><span
+                                                                    class="accessibility-reader-no-display"
+                                                                    id="QuestionInfo_rf99a1aa7cba94b33bd97de764f669a01"
+                                                                    aria-hidden="true">Single line text. </span></div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="office-form-question-element">
+                                                        <div
+                                                            class="student-feedback-view-short-text-field-with-correctness  ">
+                                                            <div class="office-form-textfield"><input
+                                                                    class="office-form-question-textbox office-form-textfield-input form-control office-form-theme-focus-border border-no-radius"
+                                                                    placeholder="Enter your answer" spellcheck="true"
+                                                                    maxlength="4000"
+                                                                    aria-labelledby="QuestionId_rf99a1aa7cba94b33bd97de764f669a01 QuestionInfo_rf99a1aa7cba94b33bd97de764f669a01">
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="__question__ office-form-question    ">
+                                                <div class="office-form-question-content">
+                                                    <div id="QuestionId_rf14c6d9f2b744183a36e09c8fcce7e04"
+                                                        class="question-title-box ">
+                                                        <div>
+                                                            <div class="office-form-question-title" aria-level="2"
+                                                                role="heading"><span><span
+                                                                        class="ordinal-number">3.</span><span
+                                                                        class="text-format-content">Phone
+                                                                        number</span></span><span
+                                                                    class="accessibility-reader-no-display"
+                                                                    id="QuestionInfo_rf14c6d9f2b744183a36e09c8fcce7e04"
+                                                                    aria-hidden="true">Single line text. </span></div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="office-form-question-element">
+                                                        <div
+                                                            class="student-feedback-view-short-text-field-with-correctness  ">
+                                                            <div class="office-form-textfield"><input
+                                                                    class="office-form-question-textbox office-form-textfield-input form-control office-form-theme-focus-border border-no-radius"
+                                                                    placeholder="The value must be a number"
+                                                                    spellcheck="true" maxlength="4000"
+                                                                    aria-labelledby="QuestionId_rf14c6d9f2b744183a36e09c8fcce7e04 QuestionInfo_rf14c6d9f2b744183a36e09c8fcce7e04">
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="__question__ office-form-question    ">
+                                                <div class="office-form-question-content">
+                                                    <div id="QuestionId_ra77115bb49fa425791d85a59691f6f7e"
+                                                        class="question-title-box ">
+                                                        <div>
+                                                            <div class="office-form-question-title" aria-level="2"
+                                                                role="heading"><span><span
+                                                                        class="ordinal-number">4.</span><span
+                                                                        class="text-format-content">Was this your first
+                                                                        time to attend one of our
+                                                                        events?</span></span><span
+                                                                    class="accessibility-reader-no-display"
+                                                                    id="QuestionInfo_ra77115bb49fa425791d85a59691f6f7e"
+                                                                    aria-hidden="true">Single choice. </span></div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="office-form-question-element">
+                                                        <div role="radiogroup"
+                                                            aria-labelledby="QuestionId_ra77115bb49fa425791d85a59691f6f7e QuestionInfo_ra77115bb49fa425791d85a59691f6f7e"
+                                                            class="">
+                                                            <div class="office-form-question-choice">
+                                                                <div class="radio"><label
+                                                                        class="office-form-question-choice-row office-form-question-choice-text-row"><input
+                                                                            aria-checked="false" role="radio"
+                                                                            type="radio"
+                                                                            name="ra77115bb49fa425791d85a59691f6f7e"
+                                                                            aria-posinset="1" aria-setsize="2"
+                                                                            aria-label="Yes" value="Yes"><span
+                                                                            class="office-form-question-choice-text-span"><span
+                                                                                class="text-format-content">Yes</span></span></label>
+                                                                </div>
+                                                            </div>
+                                                            <div class="office-form-question-choice">
+                                                                <div class="radio"><label
+                                                                        class="office-form-question-choice-row office-form-question-choice-text-row"><input
+                                                                            aria-checked="false" role="radio"
+                                                                            type="radio"
+                                                                            name="ra77115bb49fa425791d85a59691f6f7e"
+                                                                            aria-posinset="2" aria-setsize="2"
+                                                                            aria-label="No" value="No"><span
+                                                                            class="office-form-question-choice-text-span"><span
+                                                                                class="text-format-content">No</span></span></label>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="office-form-navigation-container">
+                                        <div class="office-form-button-container"><button
+                                                class="office-form-theme-primary-background office-form-theme-button office-form-bottom-button button-control light-background-button __submit-button__"
+                                                title="Submit" role="button">
+                                                <div class="button-content">Submit</div>
+                                            </button></div>
+                                        <div class="progress-bar-container"></div>
+                                    </div>
+                                    <div class="office-form-notice-password">Never give out your password.<a
+                                            class="office-form-notice-report" href="javascript:void(0)">Report abuse</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="office-form-footer office-form-theme-footer" role="contentinfo">
+                                <div class="office-form-footer-container office-form-padding-align">
+                                    <div class="office-form-footer-block">This content is created by the owner of the
+                                        form. The data you submit will be sent to the form owner. Microsoft is not
+                                        responsible for the privacy or security practices of its customers, including
+                                        those of this form owner. Never give out your password.</div>
+                                    <div class="office-form-footer-block">
+                                        <div class="office-form-footer-inline-without-margin">Powered by Microsoft Forms
+                                        </div><span role="presentation"> | </span>
+                                        <div class="office-form-footer-inline"><a
+                                                href="https://go.microsoft.com/fwlink/?LinkId=521839" rel="noreferrer"
+                                                target="_blank">Privacy and cookies</a></div><span role="presentation">
+                                            | </span><a rel="noreferrer" target="_blank"
+                                            href="https://go.microsoft.com/fwlink/?linkid=866263">Terms of use</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accessibility-reader-no-display" aria-live="polite"></div>
                 </div>
             </div>
         </div>
-
     </div>
     <script type="text/javascript">window.NavKeyPoints.MainCssStartTime = Date.now();</script>
     <link href="https://cdn.forms.office.net/forms/css/dist/light-response-page.min.6306a9e.css?formsSr=1"
         rel="stylesheet" type="text/css" id="form-page-css">
-    </link>
     <script type="text/javascript">window.NavKeyPoints.MainCssLoadedTime = Date.now();</script>
 
 
@@ -304,6 +497,96 @@
     <script type="text/javascript">window.NavKeyPoints.MainJsLoadedTime = Date.now();</script>
 
 
+
+
+    <style id="theme-root">
+        .office-form-theme-primary-foreground,
+        .office-form-theme-primary-color {
+            color: #03787C;
+        }
+
+        .office-form-theme-secondary-color,
+        .office-form-theme-secondary-color:focus,
+        .office-form-theme-secondary-color:hover {
+            color: #014446;
+        }
+
+        .office-form-theme-primary-background,
+        .office-form-theme-sort-item.office-form-selected-item,
+        .office-form-theme-sort-item:focus {
+            background: #03787C;
+            color: #FFFFFF;
+        }
+
+        .office-form-theme-secondary-background {
+            background: #014446;
+            color: #FFFFFF;
+        }
+
+        .office-form-theme-background,
+        .office-form-theme-page-background {
+            background-color: #E8F2F4;
+        }
+
+        .office-form-theme-button {
+            color: white;
+            background: #03787C;
+        }
+
+        .office-form-theme-button:hover,
+        .office-form-theme-button:focus {
+            background: #014446;
+        }
+
+        .office-form-theme-quiz-point {
+            color: #014446;
+        }
+
+        .office-form-theme-interactive-color {
+            color: #03787C;
+        }
+
+        .office-form-theme-image-container-border {
+            border: 3px solid #E8F2F4;
+        }
+
+        .office-form-theme-focus-border:focus {
+            border-color: #03787C;
+            outline-color: #03787C;
+        }
+
+        .office-form-theme-button-foreground.active,
+        .office-form-theme-button-foreground.touch.active:hover {
+            color: white;
+            background: #03787C;
+            outline-color: #03787C;
+        }
+
+        .office-form-theme-button-foreground.active:hover {
+            background: #014446;
+            outline-color: #014446;
+        }
+
+        .office-form-theme-footer {
+            background: rgba(255, 255, 255, .4);
+        }
+
+        .office-form-theme-page-background {
+            background-color: #E8F2F4;
+        }
+
+        .office-form-theme-shadow {
+            box-shadow: 0 0 11px rgba(0, 0, 0, .12);
+        }
+
+        .office-form-theme-progress-bar-background {
+            background: #03787C0D;
+        }
+    </style>
+    <div id="gtx-trans" style="position: absolute; left: 371px; top: 73px;">
+        <div class="gtx-trans-icon"></div>
+    </div>
 </body>
+<grammarly-desktop-integration data-grammarly-shadow-root="true"></grammarly-desktop-integration>
 
 </html>
