@@ -12,3 +12,9 @@ function counter() {
   }, 60);
 }
 counter();
+
+$(document).ready(function () {
+  $("#open-my-loader").append(
+    '<div class="preloader"> <div class="p-4"></div> <div class="counter">0</div> <div class="bagcampus-dev-tag"> <div class="event_area p-0"> <div class="double_line text-center p-3">BAGCAMPUS <br> POWER CAMP 2021</div> </div> </div> </div>'
+  );
+});
